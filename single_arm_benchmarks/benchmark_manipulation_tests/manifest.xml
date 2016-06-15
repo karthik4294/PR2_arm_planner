@@ -1,0 +1,27 @@
+<package>
+  <description brief="Single Arm Planner Tests">
+
+    Single Arm Planner Tests
+
+  </description>
+  <author>Benjamin Cohen</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/benchmark_manipulation_tests</url>
+
+  <depend package="roscpp"/>
+  <depend package="moveit_msgs" />
+  <depend package="arm_navigation_msgs" />
+  <depend package="pviz" />
+  <depend package="leatherman" />
+  <depend package="sbpl" />
+  <depend package="sbpl_collision_checking" />
+  <depend package="sbpl_manipulation_components" />
+  <depend package="sbpl_manipulation_components_pr2" />
+  <depend package="sbpl_arm_planner" />
+  <depend package="ompl_arm_planner" />
+  <!--<depend package="monolithic_pr2_planner_node" />-->
+
+</package>
+
+

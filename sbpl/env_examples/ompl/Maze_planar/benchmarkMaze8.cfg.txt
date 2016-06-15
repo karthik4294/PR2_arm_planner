@@ -1,0 +1,29 @@
+[problem]
+name = Maze
+robot = car1_planar_robot.dae
+world = Maze_planar_env.dae
+start.x = -33.9665
+start.y = 47.8219
+start.theta = 2.82208
+goal.x = 4.49883
+goal.y = -46.6168
+goal.theta = -0.5936
+volume.min.x = -55.0
+volume.min.y = -55.0
+volume.max.x = 55.0
+volume.max.y = 55.0
+
+[benchmark]
+time_limit= 20.0
+mem_limit= 10000
+run_count= 10
+save_paths=shortest
+
+[planner]
+#rrt=
+#lazyrrt=
+rrtstar=
+rrtconnect=
+prm=
+#kpiece=
+#lbkpiece=

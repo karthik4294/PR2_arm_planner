@@ -1,0 +1,29 @@
+[problem]
+name = H
+robot = car1_planar_robot_mod.dae
+world = H_planar_env.dae
+start.x = 24.5447
+start.y = -21.3925
+start.theta = 0.358591
+goal.x = -42.2699
+goal.y = -0.725193
+goal.theta = -2.02295
+volume.min.x = -55.0
+volume.min.y = -55.0
+volume.max.x = 55.0
+volume.max.y = 55.0
+
+[benchmark]
+time_limit= 20.0
+mem_limit= 10000
+run_count= 10
+save_paths=shortest
+
+[planner]
+rrt=
+#lazyrrt=
+#rrtstar=
+#rrtconnect=
+#prmstar=
+#kpiece=
+#lbkpiece=

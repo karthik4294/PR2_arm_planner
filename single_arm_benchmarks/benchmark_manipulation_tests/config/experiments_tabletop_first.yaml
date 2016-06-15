@@ -1,0 +1,55 @@
+experiments:
+
+  - name: tabletop_01
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: above_table_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+  - name: tabletop_02
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: below_table_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+  - name: tabletop_03
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: above_table_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "I'm havin a grand ol' time"
+  - name: tabletop_04
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: below_table_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+  - name: tabletop_05
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: above_table_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+
+
+

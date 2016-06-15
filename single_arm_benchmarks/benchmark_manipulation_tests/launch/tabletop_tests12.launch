@@ -1,0 +1,34 @@
+<launch>
+
+  <!-- send pr2 urdf to param server -->
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 base_link /base_footprint 10" />
+
+ <arg name="debug" default="false" />
+ <arg unless="$(arg debug)" name="launch_prefix" value="" />
+<arg if="$(arg debug)" name="launch_prefix" value="xterm -e gdb --args" />
+<param name="robot_description" command="$(find xacro)/xacro.py '$(find pr2_description)/robots/pr2.urdf.xacro'" />
+
+  <!-- Planning Context -->
+  <include file="$(find pr2_moveit_config)/launch/planning_context.launch" />
+
+  <node pkg="benchmark_manipulation_tests" name="benchmark_manipulation_tests" type="runTest" output="screen" launch-prefix="$(arg launch_prefix)" required="true">
+    <rosparam command="load" file="$(find benchmark_manipulation_tests)/config/single_arm_tabletop12.yaml" />
+    <rosparam command="load" file="$(find benchmark_manipulation_tests)/config/locations_tabletop.yaml" />
+    <rosparam command="load" file="$(find benchmark_manipulation_tests)/config/experiments_tabletop_first.yaml" />
+    <param name="known_objects_filename" value="$(find benchmark_manipulation_tests)/env/tabletop.env" />
+    <rosparam command="load" file="$(find pr2_moveit_config)/config/kinematics.yaml"/>
+
+    <param name="benchmark_results_folder" value="$(find benchmark_manipulation_tests)/results/" />
+
+
+    <!-- Planners -->
+    <rosparam command="load" file="$(find pr2_moveit_config)/config/kinematics.yaml"/>
+    <rosparam command="load" file="$(find pr2_moveit_config)/config/ompl_planning.yaml"/>
+
+    <rosparam command="load" file="$(find sbpl_arm_planner)/config/pr2_right_arm.yaml" />
+    <param name="action_set_filename" value="$(find sbpl_arm_planner)/config/pr2.mprim" />
+    <rosparam command="load" file="$(find sbpl_collision_checking)/config/pr2_right_arm_model.yaml" />
+    <rosparam command="load" file="$(find sbpl_collision_checking)/config/collision_operations.yaml" />
+  </node>
+
+</launch>

@@ -1,0 +1,33 @@
+experiments:
+
+  - name: industrial_01
+    goal: oven_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    #start: -1.75 0.017997624551430391 -0.005238188295824564 -1.4 -0.00041708680445573521 -1.1 -0.0010002085575777642
+  - name: industrial_02
+    goal: top_bin_left_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    #start: -1.75 0.017997624551430391 -0.005238188295824564 -1.4 -0.00041708680445573521 -1.1 -0.0010002085575777642
+  - name: industrial_03
+    goal: oven_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    #start: -1.75 0.017997624551430391 -0.005238188295824564 -1.4 -0.00041708680445573521 -1.1 -0.0010002085575777642
+  - name: industrial_04
+    goal: top_bin_right_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    #start: -1.75 0.017997624551430391 -0.005238188295824564 -1.4 -0.00041708680445573521 -1.1 -0.0010002085575777642
+  - name: industrial_05  
+    goal: oven_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    #start: -1.75 0.017997624551430391 -0.005238188295824564 -1.4 -0.00041708680445573521 -1.1 -0.0010002085575777642
+

@@ -1,0 +1,17 @@
+<launch>
+  <include file="$(find pr2_machine)/$(env ROBOT).machine" />
+  
+  <include file="$(find pr2_description)/robots/upload_pr2.launch" />
+
+<!--  <node name="rviz" pkg="rviz" type="rviz" /> -->
+
+  <!-- Map Server, Localization -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find willow_maps)/willow-full-0.05.pgm 0.05" />
+
+  <!-- Run Simple Example -->
+  <node name="pviz_example" pkg="pviz" type="pvizExample" output="screen">
+    <param name="trajectory_filename" type="string" value="$(find pviz)/trajectory.csv" />
+  </node>
+ 
+</launch>
+

@@ -1,0 +1,52 @@
+experiments:
+
+  - name: tunnel_01
+    goal: left_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tunnel_02
+    goal: right_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+    start:
+      right: 0.425043 0.310043 0.279253 -0.947245 2.583071 -0.593083 -2.848436
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tunnel_03
+    goal: left_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+    start:
+      right: -0.290206 0.512516 -3.071779 -0.220037 2.648656 -0.796277 0.401909
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tunnel_04
+    goal: right_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+    start:
+      right: 0.520277 0.790097 0.418879 -0.583840 0.255069 -0.514239 0.251343
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tunnel_05
+    goal: left_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+    start:
+      right: -0.561290 -0.240357 -0.907571 -0.842398 -2.259636 -0.670067 -2.719654
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000

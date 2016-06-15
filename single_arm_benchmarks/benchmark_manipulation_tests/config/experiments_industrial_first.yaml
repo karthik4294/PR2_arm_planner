@@ -1,0 +1,54 @@
+experiments:
+
+  - name: industrial_01
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: oven_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+  - name: industrial_02
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: top_bin_right_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+  - name: industrial_03
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: oven_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+  - name: industrial_04
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+    goal: top_bin_left_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+  - name: industrial_05
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000  
+    goal: top_bin_right_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+
+

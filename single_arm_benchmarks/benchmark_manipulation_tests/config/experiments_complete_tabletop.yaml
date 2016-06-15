@@ -1,0 +1,102 @@
+experiments:
+
+  - name: tabletop_01
+    goal: above_table_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_02
+    goal: below_table_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "testing is fun!"
+    start:
+      right: -0.034907 0.087266 -0.209440 -0.139626 -2.212038 -0.039152 2.521324
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_03
+    goal: above_table_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "I'm havin a grand ol' time"
+    start:
+      right: -0.167852 1.191647 0.069813 -0.975502 -2.443034 -0.180440 2.380943
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_04
+    goal: below_table_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.053947 -0.017209 -1.535890 -1.025745 -2.875960 -1.232815 -3.039457
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_05
+    goal: above_table_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: 0.462219 1.008784 0.488692 -0.991832 2.733708 -0.701401 -1.328317
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_06
+    goal: below_table_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.032271 -0.132988 -2.164208 -0.804787 2.631805 -0.656882 0.476523
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_07
+    goal: above_table_04
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.727138 0.797053 -1.605703 -0.866991 -2.689760 -0.470411 -0.848628
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_08
+    goal: below_table_04
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.532899 0.004488 -1.326450 -1.332431 -1.634653 -1.806441 -0.790258
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_09
+    goal: above_table_05
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.411529 0.890333 -0.907571 -0.703790 -0.958924 -1.417847 1.217515
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000
+  - name: tabletop_10
+    goal: below_table_05
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "Can't stop now!"
+    start:
+      right: -0.126854 0.053656 -1.396263 -0.701613 -0.264096 -0.639335 -0.609998
+      left: 2.135000 0.803000 1.732000 -1.905000 2.369000 -1.680000 1.398000
+      base: 0.000000 0.000000 0.000000
+      spine: 0.100000

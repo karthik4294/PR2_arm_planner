@@ -1,0 +1,56 @@
+group_name: right_arm
+
+benchmark_service: /benchmark_planning_problem
+world_frame: base_footprint
+robot_model_root_frame: odom_combined
+spine_frame: torso_lift_joint
+experiment_group_name: countertop
+trajectory_description_for_display: interpolate
+# of calls to the planner per experiment
+average_count: 1
+
+sbpl_planner_id: Hstar
+ompl_planner_id: RRTstar
+
+eps_file: eps_100
+
+timeout_file: 20_timeout
+
+exp_run_count: 20
+
+epsilon: 100
+
+goal_tolerance:
+  xyz: 0.02 0.02 0.02
+  rpy: 0.05 0.05 0.05
+
+# true: use the last waypoint in the previous experiment's trajectory as the start state for the next experiment 
+# false: use the start state specified in the experiment description as the start state of that experiment
+use_current_pose_as_start_state: true
+
+apply_offset_to_collision_objects: true
+
+collision_object_offset:
+  xyz: 1.0 1.55 0
+  rpy: 0 0.0 3.14
+
+
+# only used for both_arms experiments
+# this is currently needed to be on the param server for the single arm experiments as well :)
+# pose of {r,l}_wrist_roll_links in the object frame
+object_pose_in_gripper:
+  right:
+    xyz: -0.20 -0.1 0.0
+    rpy: 0.0 0.0 0.0
+  left:
+    xyz: -0.20 0.1 0.0
+    rpy: 0.0 0.0 0.0
+
+initial_start_state:
+  right: -1.5 0.017997624551430391 -0.005238188295824564 -1.4 -1.35 -0.271175505726084 -0.500002085575777642
+#right: -1.5 0.017997624551430391 -0.005238188295824564 -1.4 -1.35 -0.271175505726084 -1.00002085575777642 
+  left: 1.5 1.0 0.005683010665493704 -1.4 0.00079943310185193195 -0.7439117804053561 0.00049889278955195238
+  base: 0 0 0 
+  spine: 0.21
+
+

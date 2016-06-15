@@ -1,0 +1,102 @@
+experiments:
+
+  - name: countertop_01
+    goal: right_shelf_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -1.500000 0.017998 -0.005238 -1.400000 -0.000417 -0.744712 -0.001000
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_02
+    goal: sink_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.174533 -0.471239 -3.001966 0.209440 0.313723 -0.735937 2.778504
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_03
+    goal: right_counter_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.213638 -0.010675 -2.234021 -1.422630 2.977231 -1.133124 0.134066
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_04
+    goal: dishwasher_01
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.760820 0.077504 -1.466077 -0.646066 0.567466 -0.154600 0.679148
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_05
+    goal: left_shelf_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -1.331389 0.677903 -2.373648 -0.696373 -1.519394 -0.571790 3.075493
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_06
+    goal: sink_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: 0.349066 -0.506145 -0.907571 -0.488692 -1.891638 -0.800960 -2.163857
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_07
+    goal: dishwasher_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.056269 0.294297 -1.605703 -0.558418 -1.701544 -1.303250 -2.616641
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_08
+    goal: right_shelf_02
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -1.478438 0.661903 -3.071779 -0.593560 -0.174003 -0.318610 2.785609
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_09
+    goal: right_counter_04
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.575959 -0.523599 -1.466077 -0.314159 -0.653113 -0.717630 -3.043121
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000
+  - name: countertop_10
+    goal: dishwasher_03
+    pre_action: nothing
+    post_action: nothing
+    sound_bite: "how ya doin buddy?"
+    start:
+      right: -0.621837 0.052901 -1.605703 -0.300556 2.244142 -0.868477 0.170849
+      left: 1.500000 1.000000 0.005683 -1.400000 0.000799 -0.743912 0.000499
+      base: 0.000000 0.000000 0.000000
+      spine: 0.210000

@@ -1,0 +1,27 @@
+[problem]
+name = benchmark2_H
+robot = car1_planar_robot.dae
+world = H_planar_env.dae
+start.x = 44.00
+start.y = 30.00
+start.theta = 1.22			
+goal.x = -43.00
+goal.y = 37.00
+goal.theta = 5.41
+volume.min.x = -55.0
+volume.min.y = -55.0
+volume.max.x = 55.0
+volume.max.y = 55.0
+
+[benchmark]
+time_limit=20.0
+mem_limit=10000.0
+run_count=20
+save_paths=shortest
+
+[planner]
+rrt=
+lazyrrt=
+rrtstar=
+rrtconnect=
+prmstar=

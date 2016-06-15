@@ -1,0 +1,105 @@
+default_collision_operations:
+
+  - object1: r_shoulder
+    object2: torso
+    operation: disable
+
+  - object1: r_upper_arm
+    object2: torso
+    operation: disable
+
+  - object1: r_shoulder
+    object2: r_upper_arm
+    operation: disable
+
+  - object1: r_upper_arm
+    object2: r_forearm
+    operation: disable
+
+  - object1: r_forearm
+    object2: r_gripper
+    operation: disable
+
+  - object1: r_right_finger
+    object2: r_gripper
+    operation: disable
+
+  - object1: r_left_finger
+    object2: r_gripper
+    operation: disable
+
+  - object1: r_right_finger_tip
+    object2: r_gripper
+    operation: disable
+
+  - object1: r_left_finger_tip
+    object2: r_gripper
+    operation: disable
+
+  - object1: r_right_finger
+    object2: r_right_finger_tip
+    operation: disable
+
+  - object1: r_left_finger
+    object2: r_left_finger_tip
+    operation: disable
+
+  - object1: r_right_finger
+    object2: r_left_finger
+    operation: disable
+
+  - object1: r_right_finger_tip
+    object2: r_left_finger_tip
+    operation: disable
+
+  - object1: l_shoulder
+    object2: torso
+    operation: disable
+
+  - object1: l_upper_arm
+    object2: torso
+    operation: disable
+
+  - object1: l_shoulder
+    object2: l_upper_arm
+    operation: disable
+
+  - object1: l_upper_arm
+    object2: l_forearm
+    operation: disable
+
+  - object1: l_forearm
+    object2: l_gripper
+    operation: disable
+
+  - object1: l_right_finger
+    object2: l_gripper
+    operation: disable
+
+  - object1: l_left_finger
+    object2: l_gripper
+    operation: disable
+
+  - object1: l_right_finger_tip
+    object2: l_gripper
+    operation: disable
+
+  - object1: l_left_finger_tip
+    object2: l_gripper
+    operation: disable
+
+  - object1: l_right_finger
+    object2: l_right_finger_tip
+    operation: disable
+
+  - object1: l_left_finger
+    object2: l_left_finger_tip
+    operation: disable
+
+  - object1: l_right_finger
+    object2: l_left_finger
+    operation: disable
+
+  - object1: l_right_finger_tip
+    object2: l_left_finger_tip
+    operation: disable

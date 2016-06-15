@@ -1,0 +1,29 @@
+[problem]
+name = Passage
+robot = car1_planar_robot.dae
+world = Passage_planar_env.dae
+start.x = -35.9566
+start.y = 3.22654
+start.theta = 0.380531
+goal.x = 33.2258
+goal.y = -39.1483
+goal.theta = -0.670488
+volume.min.x = -55.0
+volume.min.y = -55.0
+volume.max.x = 55.0
+volume.max.y = 55.0
+
+[benchmark]
+time_limit= 20.0
+mem_limit= 10000
+run_count= 10
+save_paths=shortest
+
+[planner]
+#rrt=
+#lazyrrt=
+rrtstar=
+rrtconnect=
+prm=
+#kpiece=
+#lbkpiece=

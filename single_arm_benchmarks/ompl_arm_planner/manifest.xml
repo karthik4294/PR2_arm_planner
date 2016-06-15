@@ -1,0 +1,24 @@
+<package>
+  <description brief="ompl_arm_planner">
+
+     ompl_arm_planner
+
+  </description>
+  <author>Ben Cohen</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ompl_arm_planner</url>
+
+  <depend package="roscpp"/>
+  <!--<depend package="ompl" />-->
+  <depend package="sbpl_manipulation_components" />
+
+  <rosdep name="sbpl" />
+
+  <export>
+    <cpp cflags="-I${prefix}/include  -O3 -g" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib  -lompl_arm_planner"/>
+  </export>
+
+</package>
+
+

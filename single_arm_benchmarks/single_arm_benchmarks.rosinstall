@@ -1,0 +1,27 @@
+- setup-file:
+    local-name: /opt/ros/groovy/setup.sh
+- git:
+    local-name: sbpl_manipulation
+    uri: https://github.com/bcohen/sbpl_manipulation.git
+    version: groovy
+- git:
+    local-name: leatherman
+    uri: https://github.com/bcohen/leatherman.git
+    version: groovy
+- git:
+    local-name: pviz
+    uri: https://github.com/bcohen/pviz.git
+    version: with_head
+- git:
+    local-name: sbpl_geometry_utils
+    uri: https://github.com/sbpl/sbpl_geometry_utils.git
+    version: master
+- git:
+    local-name: sbpl
+    uri: https://github.com/sbpl/sbpl.git
+    version: master
+- git:
+    local-name: single_arm_benchmarks
+    uri: https://sbpl.pc.cs.cmu.edu/redmine/testing/single-arm-iros-2012.git
+    version: master
+

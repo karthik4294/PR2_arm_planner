@@ -1,0 +1,63 @@
+locations:
+
+  - name: above_table_01
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_02
+    pose: 0.76 -0.23 0.94 0.1 -0.02 0.02
+  - name: above_table_03
+    pose: 0.76 -0.26 0.94 0.1 -0.02 0.02
+  - name: above_table_04
+    pose: 0.76 -0.29 0.94 0.1 -0.02 0.02
+  - name: above_table_05
+    pose: 0.76 -0.31 0.94 0.1 -0.02 0.02
+  - name: above_table_06
+    pose: 0.76 -0.34 0.94 0.1 -0.02 0.02
+  - name: above_table_07
+    pose: 0.74 -0.2 0.95 0.1 -0.02 0.02
+  - name: above_table_08
+    pose: 0.74 -0.23 0.95 0.1 -0.02 0.02
+  - name: above_table_09
+    pose: 0.74 -0.26 0.95 0.1 -0.02 0.02
+  - name: above_table_10
+    pose: 0.74 -0.29 0.95 0.1 -0.02 0.02
+  - name: above_table_11
+    pose: 0.74 -0.31 0.95 0.1 -0.02 0.02
+  - name: above_table_12
+    pose: 0.74 -0.34 0.95 0.1 -0.02 0.02
+  - name: above_table_13
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_14
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_15
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_16
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_17
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_18
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_19
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_20
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_21
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_22
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_23
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_24
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_25
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_26
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_27
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_28
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_29
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+  - name: above_table_30
+    pose: 0.76 -0.2 0.94 0.1 -0.02 0.02
+

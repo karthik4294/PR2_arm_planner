@@ -1,0 +1,27 @@
+[problem]
+name = benchmark9_Passage
+robot = car1_planar_robot.dae
+world = Passage_planar_env.dae
+start.x = -40.00
+start.y = -30.00
+start.theta = 4.54			
+goal.x = 45.00
+goal.y = 45.00
+goal.theta = 0.52
+volume.min.x = -55.0
+volume.min.y = -55.0
+volume.max.x = 55.0
+volume.max.y = 55.0
+
+[benchmark]
+time_limit=20.0
+mem_limit=10000.0
+run_count=20
+save_paths=shortest
+
+[planner]
+rrt=
+lazyrrt=
+rrtstar=
+rrtconnect=
+prmstar=
